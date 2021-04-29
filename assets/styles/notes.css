@@ -1,0 +1,121 @@
+.notes-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.notes-content {
+  margin-bottom: 94px;
+}
+
+.link-back {
+  text-decoration: none;
+  color: rgb(255, 132, 105);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color .15s ease-out;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(255, 132, 105, .3);
+}
+
+.link-back:hover {
+  color: rgba(255, 132, 105, .6);
+  border-color: rgba(255, 132, 105, .15);
+}
+
+.notes-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  color: #252A35;
+  margin-bottom: 64px;
+  margin-top: 32px;
+}
+
+.notes-details-section {
+  margin-bottom: 64px;
+}
+
+.notes-details-section:last-of-type {
+  margin-bottom: 0;
+}
+
+.notes-details-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: #252A35;
+  margin-bottom: 32px;
+}
+
+.notes-details-subsection {
+  margin-bottom: 32px;
+}
+
+.notes-details-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #252A35;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.notes-definition,
+.notes-description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.notes-description.custom-margin {
+  margin-bottom: 32px;
+}
+
+.notes-list {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 20px;
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.notes-list li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -20px;
+}
+
+.notes-table {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: rgb(51, 51, 51);
+  border-collapse: collapse;
+}
+
+.notes-table, th, td {
+  border: 1px solid black;
+}
+
+.notes-table th, td {
+  padding: 10px 5px;
+}
+
+.notes-table th {
+  font-weight: 500;
+}

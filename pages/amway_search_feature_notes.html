@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Michal Dobrowolski</title>
+    <link href="../assets/styles/main.css" rel="stylesheet">
+    <link href="../assets/styles/notes.css" rel="stylesheet">
+    <link href="../assets/styles/work-detailed.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="details-section">
+      <header class="header-wrapper">
+        <div class="container">
+          <div class="links-wrapper">
+            <div class="logo-wrapper">
+              <h2 class="logo-title"><a href="../index.html">Michal Dobrowolski</a></h2>
+              <h4 class="logo-subtitle">Product Designer</h4>
+            </div>
+            <div class="menu-wrapper">
+              <ul class="menu">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="about_me.html">About me</a></li>
+                <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
+                <li class="nav-item"><a class="nav-link" href="../assets/CV_Michal_Dobrowolski_20200416_EN.pdf" target="_blank">CV</a></li>
+              </ul>
+            </div>
+
+            <div class="nav-hamburger">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <!-- Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <ul>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="work.html">Work</a></li>
+                  <li><a href="about_me.html">About me</a></li>
+                  <li><a href="tools.html">Tools</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End of the Modal-->
+      </header>
+      <div class="notes-wrapper">
+        <div class="container">
+          <div class="notes-content">
+            <a href="amway_search_feature.html" class="link-back">Back to Search feature project</a>
+            <h1 class="notes-title">Search feature - Research notes</h1>
+            <div class="notes-details">
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">General remarks</h3>
+                <ul class="notes-list">
+                  <li>Don’t allow people to do a site­ wide search if the search
+                    results will not be relevant to the user’s query</li>
+                  <li>Support phonetic misspellings corrections</li>
+                  <li>Users mix filtering and sorting</li>
+                  <li>To provide high ­quality search suggestions, look at how
+                    suggestions are generated. Many suggestions that are redundant,
+                    of low quality or typos are likely the result of developers
+                    sourcing suggestions from the website’s search logs. If this
+                    strategy doesn’t take into account the success of those queries
+                    (that is, whether a decent percentage of users found and purchased
+                    products after performing those searches), then it is flawed.</li>
+                </ul>
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Search field design</h3>
+                <p class="notes-description custom-margin">The search field represents the initial
+                  step of the user’s search process, it’s design can influence
+                  the user’s entire approach to how they find products on the site.</p>
+                <div class="notes-details-subsection">
+                  <h5 class="notes-details-subtitle">How should the user Journey for searching products begin?</h5>
+                  <ul class="notes-list">
+                    <li>Query search ­is preferred when the user already knows the specific
+                      item they want (e.g. Artistry Trolley Bag). Search is also often
+                      chosen first in case the site has a very complex product catalog.</li>
+                    <li>Category browsing ­is preferred when the user doesn’t yet know
+                      the exact product they want. The other reason to use this type of
+                      search is when the product catalog structure is flat.</li>
+                  </ul>
+                </div>
+
+                <div class="notes-details-subsection">
+                  <h5 class="notes-details-subtitle">Which should be more prominent?</h5>
+                  <p class="notes-description">Depending on the company needs, one option
+                    can be more prominent than the other. For example, if the search field
+                    is to be more prominent, certain design tweaks have to be implemented.
+                  </p>
+                </div>
+
+                <h5 class="notes-details-subtitle">How to make Search field more prominent?</h5>
+                <p class="notes-description">There are three elements to consider:</p>
+                <ul class="notes-list">
+                  <li>Position - Placing the search field in the centre of page,</li>
+                  <li>Contrast - Increase the contrast of field border, input text,
+                    search button and provide enough padding around the field,</li>
+                  <li>Size - The larger the search field (and input text)
+                    the more prominent it will appear.</li>
+                </ul>
+                <p class="notes-description">Optionally, it may be a good idea to
+                  dynamically change the contrast of the search field on certain pages.
+                  For example, when user is already viewing a product he was interested in.</p>
+                <p class="notes-description">During testing, the more prominent
+                  the search field was featured on a test site, the more the test
+                  subjects regarded it as the site encouraging them to search
+                  (instead of navigating via the categories). therefore, in industries
+                  where search is the preferred product finding strategy, it can be
+                  beneficial to “promote” the search field with a prominent design and placement,
+                  especially on the user’s landing page (usually the homepage).</p>
+                <p class="notes-description">On the other hand, in industries where
+                  the majority of users will generally prefer to use category
+                  navigation (most often because they don’t yet know which exact
+                  product they want or what it’s called), or in case the site’s hierarchy is
+                  completely flat, a less attention-grabbing search field design may be employed
+                  to encourage category navigation over search.</p>
+                <h5 class="notes-details-subtitle">Query types</h5>
+                <p class="notes-description">There are at least 12 main types of query search
+                  found in usability study of 50 e­commerce sites.</p>
+                <table class="notes-table">
+                  <tr>
+                    <th>Query Type</th>
+                    <th>User behavior</th>
+                    <th>How you can support it</th>
+                  </tr>
+                  <tr>
+                    <td>Exact Search “Keurig K45”</td>
+                    <td>Searching for specific products by title</td>
+                    <td>Basic keyword matching, along with support for multiple
+                      title variations and intelligent handling of misspellings</td>
+                  </tr>
+                  <tr>
+                    <td>Product Type Search “Sandals”</td>
+                    <td>Searching for groups or whole categories of products</td>
+                    <td>Support for synonyms as well as categories that aren’t part
+                      of the site’s navigation / hierarchy</td>
+                  </tr>
+                  <tr>
+                    <td>Symptom Search “Stained rug”</td>
+                    <td>Searching for products by querying for the problem they must solve</td>
+                    <td>Symptom database mapping “symptoms” to “cures” (i.e. problems to solutions)</td>
+                  </tr>
+                  <tr>
+                    <td>Non­Product Search “Return policy”</td>
+                    <td>Searching for help pages, company information, and other non­product pages</td>
+                    <td>Search engine must index the entire website, not just products</td>
+                  </tr>
+                  <tr>
+                    <td>Feature Search “Waterproof cameras”</td>
+                    <td>Searching for products with specific attributes or features</td>
+                    <td>Intelligent parsing of product specifications (i.e. structured product data)</td>
+                  </tr>
+                  <tr>
+                    <td>Thematic Search “Living room rug”</td>
+                    <td>Searching for categories or concepts that are vague in nature or have
+                      “fuzzy” boundaries</td>
+                    <td>Interpretive labelling of products and categories</td>
+                  </tr>
+                  <tr>
+                    <td>Relational Search “Movies starring Tom Hanks”	</td>
+                    <td>Searching for products by their affiliation with another object</td>
+                    <td>Association data linking products and objects, ideally specifying
+                      the nature of the relationship too</td>
+                  </tr>
+                  <tr>
+                    <td>Compatibility Search “Lenses for Nikon D7000”</td>
+                    <td>Searching for products by their compatibility with another item</td>
+                    <td>Compatibility database mapping compatible products to one another</td>
+                  </tr>
+                  <tr>
+                    <td>Subjective Search “High­quality kettles”</td>
+                    <td>Searching for products using non­objective qualifiers</td>
+                    <td>Handling of quantifiable single­attribute degrees (e.g. “cheap”),
+                      quantifiable but multi­attribute mix (“value for money”), and tasted­based
+                      (“delicious”) qualifiers</td>
+                  </tr>
+                  <tr>
+                    <td>Slang, Abbreviation, and Symbol Search “Sleeping bag ­10 deg.”</td>
+                    <td>Searching for products using various linguistic shortcuts</td>
+                    <td>Synonym mapping of slangs, abbreviations, and symbols, as well as
+                      interpretation of symbol intent (ranges, modifiers, etc)</td>
+                  </tr>
+                  <tr>
+                    <td>Implicit Search “[Women’s] Pants”</td>
+                    <td>Forgetting to include certain qualifiers in the search query
+                      due to one’s current frame of mind</td>
+                    <td>All available environmental variables must be used to infer
+                      any implicit aspects of the user’s query</td>
+                  </tr>
+                  <tr>
+                    <td>Natural Language Search “Women’s shoes that are red and
+                      available in size 7.5”</td>
+                    <td>Searching in full sentences rather than bundles of keywords</td>
+                    <td>Intelligent parsing and deconstruction of the user’s query</td>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Faceted sorting</h3>
+                <p class="notes-description">Trying to sort site­ wide search results on
+                  most e­-commerce sites typically end up a mess, with irrelevant search
+                  results being propelled to the top of the list as users sort by price,
+                  customer ratings, etc.</p>
+                <h5 class="notes-details-subtitle">Suggest a scope within the sorting widget</h5>
+                <p class="notes-description">Notice how the sorting options have been disabled entirely.</p>
+                <img src="../assets/images/amway_search_feature_notes/suggest_scope.png" alt="Suggested scope of search">
+                <h3 class="notes-details-title">Suggest both scope and sorting</h3>
+                <img src="../assets/images/amway_search_feature_notes/suggest_scope_sorting.png" alt="Suggested scope and sorting of search">
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Autocomplete</h3>
+                <p class="notes-description">Properly implemented autocomplete feature is not
+                  about speeding up the search process but rather about guiding the user
+                  and lending them a helping hand in constructing their search query.</p>
+                <p class="notes-description">Autocomplete feature is proven to directly alter the how
+                  and what the user is searching for. It is critical to follow a number of design and
+                  interaction patterns to ensure that autocomplete design aligns with user expectations.</p>
+                <h5 class="notes-details-subtitle">Style auxiliary data differently</h5>
+                <p class="notes-description">Any auxiliary data in the suggestion – such as
+                  category scopes or number of matches – should be styled differently
+                  from the actual suggested search terms. Otherwise, the user won’t be able to
+                  tell at a glance what is (and isn’t) part of the suggested search terms.</p>
+                <h5 class="notes-details-subtitle">Avoid scrollbars and keep the list manageable</h5>
+                <p class="notes-description">Having a separate scroll area within an already
+                  interactive widget is a recipe for interaction disaster, and should be avoided
+                  in favour of simply having the widget expand to its natural size. Furthermore,
+                  the list of autocomplete suggestions should be kept to a maximum of around
+                  10 items to avoid inducing choice paralysis.</p>
+                <h5 class="notes-details-subtitle">Highlight the differences</h5>
+                <p class="notes-description">It’s a good idea to style the entered and suggested
+                  termsdifferently so the user can easily tell what’s suggested.</p>
+                <img src="../assets/images/amway_search_feature_notes/highlight_difference.png" alt="Highlight the difference">
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Support keyboard navigation</h3>
+                <p class="notes-description">While some of the test subjects, particularly
+                  those aged 50+, would use the mouse to select autocomplete suggestions,
+                  most subjects navigated the suggestions using the keyboard arrow keys.</p>
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Match user’s hover expectations</h3>
+                <p class="notes-description">It’s important that the hovered autocomplete
+                  suggestion is highlighted and invokes the “hand” cursor, to make it 100%
+                  obvious to the user that these are indeed clickable links and to underscore
+                  which suggestion is about to be submitted.</p>
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Show search history</h3>
+                <p class="notes-description">Highlight autocomplete suggestions which
+                  have been previously visited by the user.</p>
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Reduce visual noise</h3>
+                <p class="notes-description">Clearly separating the autocomplete suggestions
+                  is key to enabling users to scan the list and tell the suggestions
+                  apart from one another.</p>
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Consider including labels and instructions</h3>
+                <img src="../assets/images/amway_search_feature_notes/amazon_example.png" alt="Amazon Example">
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Search scope features</h3>
+                <p class="notes-description">Search scopes are one of the key differences between
+                  e-­commerce on­site search and general web search. E­-commerce sites have their
+                  products organised in categories which in turn can be used as “search scopes”.
+                  This allows users to limit the boundaries of their search to a specific category.</p>
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Autocomplete scope suggestions</h3>
+                <img src="../assets/images/amway_search_feature_notes/autocomplete_suggestion.png" alt="Autocomplete suggestion">
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Manual scope selectors</h3>
+                <p class="notes-description">When it comes to the implementation details:</p>
+                <ul class="notes-list">
+                  <li>Search scope selector design in kept secondary to the search field design.</li>
+                  <li>Selector and search field are in close proximity.</li>
+                  <li>A specific scope is never selected as the default value.</li>
+                  <li>Scope selection is presented using a dropdown (native or custom).</li>
+                </ul>
+                <img src="../assets/images/amway_search_feature_notes/manual_scope_selectors.png" alt="Manual scope selectors">
+              </div>
+
+              <div class="notes-details-section">
+                <h3 class="notes-details-title">Sorting and filtering on Search Results Page</h3>
+                <p class="notes-description">Sorting and filtering of search results is a vital part
+                  of users finding the right products among the results. In a perfect world,
+                  there should be little need for these functionalities, but user will never
+                  be able to make perfectly specified queries, simply because many will be at
+                  a stage in their purchase decision process where they haven’t fully decided
+                  or realised what they are looking for.</p>
+                <h5 class="notes-details-subtitle">General recommendations</h5>
+                <ul class="notes-list">
+                  <li>Search results should always be sorted by their “Relevance”
+                    to the user’s query.</li>
+                  <li>Users should be able to sort by price in both directions.
+                    They are looking for best value for money.</li>
+                  <li>It is vital to remember, that sorting by price may yield
+                    undesirable results to show on top, e.g. when searching for a TV
+                    and then sorting the results by price, accessories such as mounting
+                    brackets may end up on the top of the list</li>
+                  <li>Provide users with the ability to sort by both “Bestselling”
+                    and “Best rated”.</li>
+                  <li>Have category-specific sorting attributes (e.g. “TV Screen size:
+                    High to low”).</li>
+                  <li>Promote scope selection within the sorting widget (e.g. “Choose
+                    a Department to enable sorting” - Amazon).</li>
+                  <li>Consider filtering out accessories from the results list.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer section -->
+    <section class="footer-section">
+      <div class="container container-footer">
+        <div class="footer-wrapper">
+          <div class="footer-details">
+            <h6>Current CV</h6>
+            <a class="about-link" href="../assets/CV_Michal_Dobrowolski_20200416_EN.pdf" download>Download</a>
+          </div>
+
+          <div class="footer-details">
+            <h6>E-mail</h6>
+            <p class="footer-contact-info">
+              michal.dobrowolski@outlook.com
+            </p>
+          </div>
+
+          <div class="footer-details">
+            <h6>Phone</h6>
+            <p class="footer-contact-info">
+              +48 507 668 664
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of footer section-->
+
+    <script src="../scripts/script.js" type="text/javascript"></script>
+  </body>
+</html>

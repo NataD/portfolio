@@ -1,0 +1,425 @@
+.logo-wrapper {
+  color: #252A35;
+}
+
+.menu-wrapper {
+  color: rgb(48, 42, 53);
+}
+/*end of styles for menu bar*/
+
+/*styles for work projects section*/
+.faq-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+}
+
+.faq-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  color: #252A35;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.faq-date {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #252A35;
+  line-height: 28px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.faq-details-section {
+  margin-bottom: 64px;
+}
+
+.faq-details-subsection {
+  margin-bottom: 64px;
+}
+
+.faq-description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.faq-definition {
+  margin-bottom: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.faq-details {
+  margin-bottom: 94px;
+}
+
+.faq-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  color: #252A35;
+  text-align: center;
+  margin-bottom: 64px;
+  padding-top: 32px;
+}
+
+.faq-details-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: #252A35;
+  margin-bottom: 32px;
+}
+
+.faq-details-title.custom-margin {
+  margin-bottom: 64px;
+}
+
+.blockquote-container {
+  border-left: 10px solid rgb(255, 132, 105);
+  margin-top: 64px;
+}
+
+blockquote p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #252A35;
+  line-height: 28px;
+  margin: 0 0 16px 32px;
+}
+
+cite {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+  margin-left: 32px;
+}
+
+.faq-description-list {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 60px;
+  list-style: none;
+}
+
+.faq-description-list li {
+  margin-bottom: 16px;
+}
+
+.faq-description-list li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -20px;
+}
+
+.faq-details-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #252A35;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.faq-details-subtitle.custom-margin {
+  margin-bottom: 64px;
+}
+
+.faq-details-list-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.faq-details-list-regular li {
+  margin: 7.5px 0;
+}
+
+img {
+  margin-bottom: 32px;
+  width: auto;
+  max-width: 100%;
+}
+
+img:last-of-type {
+  margin-bottom: 0;
+}
+
+.wireframe {
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #FFFFFF;
+  background-color: rgba(255, 132, 105, 1);
+  text-decoration: none;
+}
+
+.wireframe:hover {
+  background-color: rgba(255, 132, 105, 0.6);
+  cursor: pointer;
+}
+
+.wireframe-password {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+.wireframe-password span {
+  font-weight: 600;
+}
+
+.faq-description-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+  color: #252A35;
+  margin-bottom: 32px;
+}
+
+.current-implementation p:first-of-type {
+  margin-bottom: 0;
+}
+
+.current-implementation p:last-of-type,
+.content-review p:last-of-type,
+.journey-analysis p:last-of-type,
+.card-sorting p:last-of-type {
+  margin-bottom: 32px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: rgb(255, 132, 105);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color .15s ease-out;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(255, 132, 105, .3);
+}
+
+.project-link:hover {
+  color: rgba(255, 132, 105, .6);
+  border-color: rgba(255, 132, 105, .15);
+}
+
+.project-link.custom-link {
+  display: block;
+  width: 142px;
+}
+
+.warning-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warning {
+  margin-bottom: 64px;
+  padding: 10px;
+  width: 580px;
+  height: 92px;
+  background-color: rgba(208, 2, 28, 1);
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 24px;
+}
+
+.warning h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 24px;
+  font-weight: 700;
+}
+/*  amway business information styles*/
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  height: 552px;
+}
+
+.image-container img {
+  height: 100%;
+  width: 31%;
+  margin-bottom: 0;
+}
+
+.img-overlay {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.amway-details-subsection {
+  margin-bottom: 32px;
+}
+
+.amway-description {
+  margin-bottom: 0;
+}
+
+.amway-description:last-of-type {
+  margin-bottom: 32px;
+}
+
+.amway-img {
+  margin-bottom: 0;
+}
+
+.amway-list,
+.amway-business-list,
+.custom-list {
+  padding-left: 20px;
+}
+
+.amway-list li {
+  margin-bottom: 0;
+}
+
+.amway-list li:before,
+.amway-business-list li:before,
+.custom-list li::before {
+  margin-left: -20px;
+}
+
+.amway-list li .highlighted {
+  font-weight: 500;
+}
+
+.figure-description {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+  color: rgb(51, 51, 51);
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 7.5px;
+  margin-bottom: 32px;
+  width: auto;
+}
+
+/*Amway search feature  */
+.amway-wireframe {
+  margin-bottom: 32px;
+}
+
+.sources-links {
+  padding-bottom: .05em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255,109,87,.3);
+  color: #ff6d57;
+  text-decoration: none;
+}
+
+.sources-links:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+ .emphasized {
+  font-weight: bold;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgba(0,0,0,0.8);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* End of Slideshow container */

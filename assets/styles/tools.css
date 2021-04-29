@@ -1,0 +1,106 @@
+.logo-wrapper {
+  color: #252A35;
+}
+
+.menu-wrapper {
+  color: rgb(48, 42, 53);
+}
+/*end of styles for menu bar*/
+
+/*styles for tools section*/
+.toolkit-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+}
+
+.toolkit-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  color: #252A35;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.toolkit-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 64px;
+}
+
+.toolkit-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.toolkit-info:last-of-type {
+  margin-bottom: 96px;
+}
+
+.toolkit-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.toolkit-details {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  flex-direction: column;
+}
+
+.toolkit-details-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: #252A35;
+  margin-bottom: 32px;
+}
+
+.toolkit-description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+@media only screen and (max-width: 959px) {
+  .toolkit-img img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .toolkit-info {
+    flex-direction: column;
+  }
+
+  .toolkit-details-title {
+    text-align: center;
+  }
+
+
+  .toolkit-img img {
+    width: auto;
+  }
+  .toolkit-img,
+  .toolkit-details {
+    width: 100%;
+  }
+}

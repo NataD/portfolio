@@ -1,0 +1,168 @@
+.logo-wrapper {
+  color: #252A35;
+}
+
+.menu-wrapper {
+  color: rgb(48, 42, 53);
+}
+/*end of styles for menu bar*/
+
+/*styles for work projects section*/
+.work-wrapper {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 110rem;
+  min-width: 30rem;
+  flex-direction: column;
+}
+
+.work-title {
+  font-family: 'Montserrat', sans-serif;
+  color:  #252A35;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.work-projects {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.work-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  margin-bottom: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: #252A35;
+}
+
+.project-description {
+  margin-bottom: 24px;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.project-link {
+  padding: 13px 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #ff6d57;
+  border-color: #ff6d57;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.projects-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  color: #252A35;
+  text-align: center;
+}
+
+.selected-projects {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.1rem solid rgba(242,43,13,.73);
+  padding: 64px 0 32px;
+}
+
+.selected-projects:last-child {
+  border-bottom: none;
+  padding: 64px 0 96px;
+}
+
+.selected-projects-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #252A35;
+  text-align: left;
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.date-details,
+.selected-project-description {
+  margin-bottom: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.selected-project-description a {
+  padding-bottom: .05em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(255,109,87,.3);
+  color: #ff6d57;
+  text-decoration: none;
+}
+
+.selected-project-description a:hover {
+  color: rgba(255,109,87,.6);
+  border-color: rgba(255,109,87,.15);
+}
+
+@media only screen and (max-width: 640px) {
+  .work-projects {
+    flex-direction: column;
+  }
+
+  .project-details {
+    justify-content: center;
+  }
+
+  .project-title {
+    text-align: center;
+  }
+}

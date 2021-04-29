@@ -1,0 +1,133 @@
+.logo-wrapper {
+  color: #252A35;
+}
+
+.menu-wrapper {
+  color: rgb(48, 42, 53);
+}
+/*end of styles for menu bar*/
+
+/*styles for about section*/
+.about-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  margin-top: 96px;
+}
+
+.about-introduction-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.about-introduction {
+  width: 40%;
+}
+
+.about-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 48px;
+  color: #252A35;
+  margin-bottom: 32px;
+}
+
+.about-description {
+  margin-bottom: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+}
+
+.about-description.custom-margin {
+  margin: 0;
+}
+
+.emphasized {
+  font-weight: 600;
+}
+
+.link-wrapper {
+  padding-top: 8px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 64px 0 96px;
+}
+
+.about-link {
+  width: 150px;
+}
+
+.about-details-title {
+  margin: 64px 0 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: #252A35;
+}
+
+.about-list {
+  display: block;
+  list-style: none;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 20px;
+}
+
+.about-list li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 16px;
+}
+
+.about-list li:before {
+  content: "–";
+  position: absolute;
+  margin-left: -10px;
+}
+
+@media only screen and (max-width: 959px) {
+  .about-introduction-wrapper {
+    flex-direction: column;
+  }
+
+  .about-image,
+  .about-introduction {
+    width: 100%;
+  }
+
+  .about-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  .about-title {
+    text-align: center;
+  }
+
+  .link-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
